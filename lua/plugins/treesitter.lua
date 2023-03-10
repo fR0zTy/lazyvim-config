@@ -1,5 +1,11 @@
 return {
   "nvim-treesitter/nvim-treesitter",
+  dependencies = {
+    {
+      "nvim-treesitter/nvim-treesitter-textobjects",
+    },
+  },
+  keys = {},
   opts = {
     ensure_installed = {
       "bash",
